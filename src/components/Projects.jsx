@@ -30,6 +30,155 @@ export default function Projects() {
 
         <Grid container spacing={4}>
 
+          {/* ================= LumenNotes ================= */}
+          <Grid item xs={12} md={6}>
+            <Reveal>
+              <Card
+                sx={{
+                  background:
+                    "linear-gradient(145deg, #0a0a0a 0%, #111 100%)",
+                  borderRadius: "14px",
+                  border: "1px solid rgba(255,0,0,0.35)",
+                  transition: "0.3s",
+                  position: "relative",
+                  overflow: "hidden",
+                  "&:hover": {
+                    transform: "translateY(-6px)",
+                    boxShadow: "0 0 28px #FF0000",
+                  },
+                  "&::before": {
+                    content: '""',
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "3px",
+                    background: "#FF0000",
+                  },
+                }}
+              >
+
+                {/* Highlight Badge */}
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: 14,
+                    right: 14,
+                    background: "#FF0000",
+                    color: "#fff",
+                    px: 1.5,
+                    py: 0.5,
+                    borderRadius: "999px",
+                    fontSize: "0.75rem",
+                    fontWeight: "bold",
+                    letterSpacing: "0.5px",
+                  }}
+                >
+                  Featured
+                </Box>
+
+                {/* Header */}
+                <Box sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 1,
+                  px: 2,
+                  py: 1,
+                  borderBottom: "1px solid rgba(255,255,255,0.06)",
+                }}>
+                  <Box sx={{ width: 10, height: 10, borderRadius: "50%", background: "#FF0000" }} />
+                  <Box sx={{ width: 10, height: 10, borderRadius: "50%", background: "#FFD700" }} />
+                  <Box sx={{ width: 10, height: 10, borderRadius: "50%", background: "#444" }} />
+
+                  <Typography sx={{ ml: 2, fontSize: "0.9rem", color: "#9ca3af" }}>
+                    LumenNotes
+                  </Typography>
+                </Box>
+
+                <CardContent>
+
+                  <Typography variant="h6" fontWeight="bold">
+                    LumenNotes
+                  </Typography>
+
+                  <Typography color="text.secondary" mt={1}>
+                    Full-stack notes platform with JWT authentication, modern UI,
+                    and seamless note management experience.
+                  </Typography>
+
+                  <Stack spacing={0.8} mt={2}>
+                    <Typography sx={{ fontSize: "0.9rem" }}>
+                      • Create, edit & manage notes
+                    </Typography>
+
+                    <Typography sx={{ fontSize: "0.9rem" }}>
+                      • JWT-based authentication system
+                    </Typography>
+
+                    <Typography sx={{ fontSize: "0.9rem" }}>
+                      • Frontend on Vercel & backend on Render
+                    </Typography>
+                  </Stack>
+
+                  {/* PREMIUM SECTION */}
+                  <Stack mt={3} spacing={3}>
+
+                    {/* Tech Stack */}
+                    <Stack direction="row" spacing={1.5} flexWrap="wrap">
+                      {["React", "Node.js", "Express", "MongoDB"].map((tech) => (
+                        <Chip
+                          key={tech}
+                          label={tech}
+                          sx={{
+                            background: "#111",
+                            color: "#fff",
+                            border: "1px solid #FF0000",
+                          }}
+                        />
+                      ))}
+                    </Stack>
+
+                    {/* Buttons */}
+                    <Stack direction="row" spacing={2}>
+                      <Button
+                        fullWidth
+                        startIcon={<GitHubIcon />}
+                        href="https://github.com/shaikrehansr9/LumenNotes"
+                        target="_blank"
+                        variant="outlined"
+                        sx={{
+                          borderColor: "#FF0000",
+                          color: "#FF0000",
+                          height: 42,
+                          borderRadius: "10px",
+                        }}
+                      >
+                        Code
+                      </Button>
+
+                      <Button
+                        fullWidth
+                        startIcon={<LaunchIcon />}
+                        href="https://lumen-notes-lac.vercel.app/"
+                        target="_blank"
+                        variant="contained"
+                        sx={{
+                          background: "#FF0000",
+                          height: 42,
+                          borderRadius: "10px",
+                        }}
+                      >
+                        Live
+                      </Button>
+                    </Stack>
+
+                  </Stack>
+
+                </CardContent>
+              </Card>
+            </Reveal>
+          </Grid>
+
           {/* ================= HomeShare ================= */}
           <Grid item xs={12} md={6}>
             <Reveal>
@@ -86,7 +235,7 @@ export default function Projects() {
                     </Typography>
                   </Stack>
 
-                  {/* 🔥 PREMIUM SECTION */}
+                  {/* PREMIUM SECTION */}
                   <Stack mt={3} spacing={3}>
 
                     {/* Tech Stack */}
@@ -201,7 +350,7 @@ export default function Projects() {
                     </Typography>
                   </Stack>
 
-                  {/* 🔥 PREMIUM SECTION */}
+                  {/* PREMIUM SECTION */}
                   <Stack mt={3} spacing={3}>
 
                     {/* Tech Stack */}
