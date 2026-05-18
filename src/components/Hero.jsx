@@ -3,7 +3,6 @@ import DownloadIcon from "@mui/icons-material/Download";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import Scene3D from "./Scene3D";
 import { motion } from "framer-motion";
-
 export default function Hero() {
   return (
     <Box
@@ -29,7 +28,6 @@ export default function Hero() {
           opacity: 0.15,
         }}
       />
-
       {/* 3D */}
       <Box
         sx={{
@@ -41,9 +39,7 @@ export default function Hero() {
       >
         <Scene3D />
       </Box>
-
       <Container maxWidth="md" sx={{ textAlign: "center", zIndex: 2 }}>
-
         {/* 🔥 NAME ANIMATION */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -61,7 +57,6 @@ export default function Hero() {
             <span style={{ color: "#FF0000" }}>Ur Rahman</span>
           </Typography>
         </motion.div>
-
         {/* Subtitle */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -72,7 +67,6 @@ export default function Hero() {
             MERN STACK DEVELOPER | BACKEND ENGINEER
           </Typography>
         </motion.div>
-
         {/* Accent Line */}
         <motion.div
           initial={{ width: 0 }}
@@ -88,7 +82,6 @@ export default function Hero() {
             }}
           />
         </motion.div>
-
         {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -99,7 +92,7 @@ export default function Hero() {
             <Button
               variant="contained"
               startIcon={<VisibilityIcon />}
-              href="https://drive.google.com/file/d/1Xnm4imtOM6Wa1QWW-xdOzDWpEtyLoLNM/preview"
+              href="https://drive.google.com/file/d/1faOJTqcv9hVvpD8BVyQ-wd41wK-AcPkZ/view?usp=drive_link"
               target="_blank"
               sx={{
                 background: "#FF0000",
@@ -110,11 +103,10 @@ export default function Hero() {
             >
               View Resume
             </Button>
-
             <Button
               variant="outlined"
               startIcon={<DownloadIcon />}
-              href="https://drive.google.com/uc?export=download&id=1Xnm4imtOM6Wa1QWW-xdOzDWpEtyLoLNM"
+              href="https://drive.google.com/uc?export=download&id=1faOJTqcv9hVvpD8BVyQ-wd41wK-AcPkZ"
               sx={{
                 borderColor: "#FF0000",
                 color: "#FF0000",
@@ -124,7 +116,6 @@ export default function Hero() {
             </Button>
           </Stack>
         </motion.div>
-
       </Container>
     </Box>
   );
