@@ -77,7 +77,7 @@ export default function Experience() {
 
               {/* Role */}
               <Typography variant="h6" fontWeight="bold">
-                Backend Intern — IIT Ropar
+                Full-Stack Development Intern | IIT Ropar (via NPTEL)
               </Typography>
 
               {/* Duration */}
@@ -88,21 +88,29 @@ export default function Experience() {
               {/* Description */}
               <Stack spacing={1} mt={3}>
                 <Typography sx={{ fontSize: "0.95rem" }}>
-                  • Developed backend data models for Teacher, Student, and Cohort systems
+                  • Completed MERN-stack training and a technical viva as part of the internship program
                 </Typography>
 
                 <Typography sx={{ fontSize: "0.95rem" }}>
-                  • Implemented authentication features including login and registration
+                  • Worked on a mentor-guided academic cohort-management project for teacher and student workflows
                 </Typography>
 
                 <Typography sx={{ fontSize: "0.95rem" }}>
-                  • Built REST APIs and integrated them with frontend components
+                  • Implemented JWT-based authentication and role-based authorization for teacher and student access
+                </Typography>
+
+                <Typography sx={{ fontSize: "0.95rem" }}>
+                  • Built 6+ reusable React components and improved features based on mentor feedback
+                </Typography>
+
+                <Typography sx={{ fontSize: "0.95rem" }}>
+                  • Collaborated with the team on GitHub and was later selected to evaluate peer interns’ viva assessments
                 </Typography>
               </Stack>
 
               {/* Tech */}
               <Stack direction="row" spacing={1} mt={3} flexWrap="wrap">
-                {["Node.js", "MongoDB", "REST APIs", "Authentication"].map((tech) => (
+                {["React.js", "Node.js", "MongoDB", "JWT", "GitHub"].map((tech) => (
                   <Chip key={tech} label={tech} sx={chipStyle} />
                 ))}
               </Stack>

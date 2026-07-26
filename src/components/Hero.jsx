@@ -29,7 +29,6 @@ export default function Hero() {
           opacity: 0.15,
         }}
       />
-
       {/* 3D */}
       <Box
         sx={{
@@ -41,9 +40,7 @@ export default function Hero() {
       >
         <Scene3D />
       </Box>
-
       <Container maxWidth="md" sx={{ textAlign: "center", zIndex: 2 }}>
-
         {/* 🔥 NAME ANIMATION */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -61,7 +58,6 @@ export default function Hero() {
             <span style={{ color: "#FF0000" }}>Ur Rahman</span>
           </Typography>
         </motion.div>
-
         {/* Subtitle */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -72,7 +68,6 @@ export default function Hero() {
             MERN STACK DEVELOPER | BACKEND ENGINEER
           </Typography>
         </motion.div>
-
         {/* Accent Line */}
         <motion.div
           initial={{ width: 0 }}
@@ -88,7 +83,6 @@ export default function Hero() {
             }}
           />
         </motion.div>
-
         {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -99,7 +93,7 @@ export default function Hero() {
             <Button
               variant="contained"
               startIcon={<VisibilityIcon />}
-              href="https://drive.google.com/file/d/18vqrKVfapH8Kfl90pw24YemejqEsHsE5/view?usp=drive_link/preview"
+              href="https://drive.google.com/file/d/18vqrKVfapH8Kfl90pw24YemejqEsHsE5/view?usp=drive_link"
               target="_blank"
               sx={{
                 background: "#FF0000",
@@ -110,7 +104,6 @@ export default function Hero() {
             >
               View Resume
             </Button>
-
             <Button
               variant="outlined"
               startIcon={<DownloadIcon />}
@@ -124,7 +117,6 @@ export default function Hero() {
             </Button>
           </Stack>
         </motion.div>
-
       </Container>
     </Box>
   );
