@@ -8,7 +8,7 @@
   <a href="https://github.com/shaikrehansr9/my_portfolio">
     <img src="https://img.shields.io/badge/Repository-my__portfolio-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
   </a>
-  <a href="https://my-portfolio-1ph2spz5b-shaikrehansr9s-projects.vercel.app/" target="_blank">
+  <a href="https://my-portfolio-git-main-shaikrehansr9s-projects.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live-Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
   <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
