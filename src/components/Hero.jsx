@@ -99,7 +99,7 @@ export default function Hero() {
             <Button
               variant="contained"
               startIcon={<VisibilityIcon />}
-              href="https://drive.google.com/file/d/1Xnm4imtOM6Wa1QWW-xdOzDWpEtyLoLNM/preview"
+              href="https://drive.google.com/file/d/18vqrKVfapH8Kfl90pw24YemejqEsHsE5/view?usp=drive_link/preview"
               target="_blank"
               sx={{
                 background: "#FF0000",
@@ -114,7 +114,7 @@ export default function Hero() {
             <Button
               variant="outlined"
               startIcon={<DownloadIcon />}
-              href="https://drive.google.com/uc?export=download&id=1Xnm4imtOM6Wa1QWW-xdOzDWpEtyLoLNM"
+              href="https://drive.google.com/uc?export=download&id=18vqrKVfapH8Kfl90pw24YemejqEsHsE5"
               sx={{
                 borderColor: "#FF0000",
                 color: "#FF0000",
