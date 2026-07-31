@@ -93,7 +93,7 @@ export default function Hero() {
             <Button
               variant="contained"
               startIcon={<VisibilityIcon />}
-              href="https://drive.google.com/file/d/18vqrKVfapH8Kfl90pw24YemejqEsHsE5/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1a0KYksg3XzxoQ3R1gL-bD1pxXEmPPNnr/view?usp=sharing"
               target="_blank"
               sx={{
                 background: "#FF0000",
@@ -104,10 +104,11 @@ export default function Hero() {
             >
               View Resume
             </Button>
+
             <Button
               variant="outlined"
               startIcon={<DownloadIcon />}
-              href="https://drive.google.com/uc?export=download&id=18vqrKVfapH8Kfl90pw24YemejqEsHsE5"
+              href="https://drive.google.com/uc?export=download&id=1a0KYksg3XzxoQ3R1gL-bD1pxXEmPPNnr"
               sx={{
                 borderColor: "#FF0000",
                 color: "#FF0000",
