@@ -29,6 +29,7 @@ export default function Hero() {
           opacity: 0.15,
         }}
       />
+
       {/* 3D */}
       <Box
         sx={{
@@ -40,8 +41,9 @@ export default function Hero() {
       >
         <Scene3D />
       </Box>
+
       <Container maxWidth="md" sx={{ textAlign: "center", zIndex: 2 }}>
-        {/* 🔥 NAME ANIMATION */}
+        {/* NAME ANIMATION */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,6 +60,7 @@ export default function Hero() {
             <span style={{ color: "#FF0000" }}>Ur Rahman</span>
           </Typography>
         </motion.div>
+
         {/* Subtitle */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -68,6 +71,7 @@ export default function Hero() {
             MERN STACK DEVELOPER | BACKEND ENGINEER
           </Typography>
         </motion.div>
+
         {/* Accent Line */}
         <motion.div
           initial={{ width: 0 }}
@@ -83,6 +87,7 @@ export default function Hero() {
             }}
           />
         </motion.div>
+
         {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -93,7 +98,7 @@ export default function Hero() {
             <Button
               variant="contained"
               startIcon={<VisibilityIcon />}
-              href="https://drive.google.com/file/d/1owYcThZgoS192vvIW45z7UyMq-86E6qX/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1UC2M6xRqM5MbF0jhIYmrOsSfGfAAaJI_/view?usp=sharing"
               target="_blank"
               sx={{
                 background: "#FF0000",
@@ -108,7 +113,7 @@ export default function Hero() {
             <Button
               variant="outlined"
               startIcon={<DownloadIcon />}
-              href="https://drive.google.com/uc?export=download&id=1owYcThZgoS192vvIW45z7UyMq-86E6qX"
+              href="https://drive.google.com/uc?export=download&id=1UC2M6xRqM5MbF0jhIYmrOsSfGfAAaJI_"
               sx={{
                 borderColor: "#FF0000",
                 color: "#FF0000",
